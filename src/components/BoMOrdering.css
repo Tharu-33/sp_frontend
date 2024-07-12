@@ -1,0 +1,104 @@
+.bom-ordering-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  background-color: #e8f1ff;
+  padding: 20px;
+  height: 100vh;
+}
+
+.main-content {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.bom-ordering-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bom-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bom-item input {
+  flex: 1;
+}
+
+.edit-btn, .delete-btn {
+  margin-left: 10px;
+}
+
+.add-more {
+  margin-top: 10px;
+  color: #007bff;
+}
+
+.search-btn {
+  margin-right: 10px;
+  background-color: #007bff;
+  border: none;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  border: none;
+}
+
+.stock-results {
+  margin-top: 20px;
+}
+
+.stock-list {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stock-list.not-in-stock {
+  background-color: #ffcccc;
+}
+
+.stock-list.in-stock {
+  background-color: #ccffcc;
+}
+
+.stock-list h5 {
+  margin-bottom: 10px;
+}
+
+.stock-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.stock-list ul li {
+  padding: 5px 0;
+}
+
+.send-approval-btn {
+  background-color: #28a745;
+  border: none;
+  margin-top: 10px;
+}
+
+.cancel-approval-btn {
+  background-color: #dc3545;
+  border: none;
+  margin-top: 10px;
+  margin-left: 10px;
+}
